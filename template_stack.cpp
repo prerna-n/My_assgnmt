@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int array[5]={};
-int array2[5]={};
+//int array2[5]={};
 int x,i,j;
 template <class T>
 class stack
