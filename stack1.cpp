@@ -6,7 +6,7 @@ using namespace std;
 #define STACK_SZ 10
 #define DEBUG display
 
-Class Stack{
+class Stack{
      int arr[STACK_SZ];
      int top;
      public:
