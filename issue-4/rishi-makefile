@@ -1,0 +1,13 @@
+CPPFLAGS=-Wall -Werror
+all:
+	g++ rishi-stack1.cpp -o rishi-stack1 $(CPPFLAGS)
+
+debug:
+	g++ rishi-stack1.cpp -o rishi-stack1 $(CPPFLAGS) -D DEBUG
+
+run: all
+	./rishi-stack1
+
+clean:
+	rm rishi-stack1
+   
