@@ -32,7 +32,7 @@ int Stack::push(int x)
         }
 	top++;
 	arr[top]=x;
-	return SUCCESS
+	return SUCCESS;
 }
 
 int Stack::pop()
