@@ -58,7 +58,7 @@ void Stack::display()
 
 int main()
 {
-	int array[]={11,23,4,5,33,65};
+	int array[] = {11,23,4,5,33,65};
 	int top = sizeof(array)/sizeof(array[0]);
 	Stack s;
 	cout<<"pushed values are:";
