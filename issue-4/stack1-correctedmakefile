@@ -1,0 +1,13 @@
+CPPFLAGS=-Wall -Werror
+all:
+	g++ stack1-corrected.cpp -o stack1-corrected $(CPPFLAGS)
+
+debug:
+	g++ stack1-corrected.cpp -o stack1-corrected $(CPPFLAGS) -D DEBUG
+
+run: all
+	./stack1-corrected
+
+clean:
+	rm stack1-corrected
+   
