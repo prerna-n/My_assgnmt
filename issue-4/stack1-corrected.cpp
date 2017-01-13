@@ -22,25 +22,25 @@ class Stack{
 
 Stack::Stack()
 {
-	top=-1;
+	top = -1;
 }
 
 int Stack::push(int x)
 {
-	if (top==STACK_SZ) {
+	if (top == STACK_SZ) {
 	   return ERR_STACK_FULL;
         }
 	top++;
-	arr[top]=x;
+	arr[top] = x;
 	return SUCCESS;
 }
 
 int Stack::pop()
 {
-	if (top==-1) {
+	if (top == -1) {
 	   return ERR_STACK_EMPTY;
 	}
-	int temp=arr[top];
+	int temp = arr[top];
 	top--;	
 	return temp;
 }
@@ -49,7 +49,7 @@ int Stack::pop()
 void Stack::display()
 {
 	cout<<"popped values are:";
-	for (int i=top;i>=0;i--) {
+	for (int i = top; i >= 0; i--) {
 	cout<<"\n"<<arr[i];
 	}
 
@@ -59,10 +59,10 @@ void Stack::display()
 int main()
 {
 	int array[]={11,23,4,5,33,65};
-	int top=sizeof(array)/sizeof(array[0]);
+	int top = sizeof(array)/sizeof(array[0]);
 	Stack s;
 	cout<<"pushed values are:";
-	for (int i=0;i<top;i++) {
+	for (int i = 0; i < top; i++) {
 	    s.push(array[i]);
 	    cout<<"\n"<<array[i];
 	}
