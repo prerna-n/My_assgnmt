@@ -1,0 +1,11 @@
+1) Simple flow constructs. Avoid goto,setjmp/longjmp, direct/indirect recursion.
+2) All loops must have fixed upper bound. Loops that have variable no of iterations 
+   should have an assertion triggered whenever upper limit is exceeded.
+3) Do not use Dynamic memory allocation after initialization
+4) No function should be longer than 60 lines of code per function
+5) Assertions: Minimum of 2 assertions should be used per function
+6) Data Objects must be declared at smallest level possible.
+7) Return value of non-void functions must be checked by each calling function.
+8) Pre-Processor: Use of pre processor must be limited to inclusion of header files and simple macro definitions
+9) Use of pointers should be restricted. function pointers are not permitted
+10) All code must be compiled with warnings enabled!
