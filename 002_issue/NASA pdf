@@ -1,5 +1,5 @@
 
-  1) Follow simple flow constructs. Avoid goto,setjmp/longjmp, direct/indirect recursion.
+        1) Follow simple flow constructs. Avoid goto,setjmp/longjmp, direct/indirect recursion.
 	2) All loops must have fixed upper bound. Loops that have variable no of iterations 
 	   should have an assertion triggered whenever upper limit is exceeded.
 	3) Do not use Dynamic memory allocation after initialization
