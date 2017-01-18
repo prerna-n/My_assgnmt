@@ -1,0 +1,5 @@
+Char * is a pointer to a character. It points to an address/location where a character is stored.
+char * must be used with some char array.
+char * cannot be  manipulated 
+While String is like an array of characters.
+With Strings there are various operations available like strlen, strcpy etc.
