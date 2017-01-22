@@ -1,0 +1,2 @@
+How can i accept string length variable from int main to other functions like in pop operation i want to access 
+length of the string. In the example i did i have hardcoded it to known length for "happy" and "holiday".
