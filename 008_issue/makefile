@@ -8,5 +8,8 @@ debug:
 run: all
 	./stack5
 
+cppcheck:
+	cppcheck stack5.cpp  --enable=all
+
 clean:
 	rm stack5 
