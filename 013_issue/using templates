@@ -1,0 +1,4 @@
+Templates are like blueprints which can be used to re-implement a code for different data types.
+We implemented stack that stores integers,strings etc (assignment no 1,2) using different codes. 
+To avoid re-wrting the code for different types of variables, we can simply use "templates" for writing the code structure.
+Then use this template to implement integer stack or character stack. An example for the same is attached in the current issue.
